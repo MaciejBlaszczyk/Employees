@@ -6,7 +6,7 @@
 class Monthly : public Employee
 {
 public:
-    Monthly(string firstName , string lastName, string NIP, string PESEL, int _salary = 0);
+    Monthly(string firstName , string lastName, string NIP, string PESEL, int salary = 0);
 
     void print();
     void countSalary() { }
